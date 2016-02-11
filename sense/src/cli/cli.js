@@ -13,7 +13,7 @@ program.version(pkg.version).description('Kibana is an open source (Apache Licen
 
 // attach commands
 require('./serve/serve')(program);
-require('./plugin/plugin')(program);
+//require('./plugin/plugin')(program);
 
 program.command('help <command>').description('Get the help for a specific command').action(function (cmdName) {
   var cmd = _.find(program.commands, { _name: cmdName });

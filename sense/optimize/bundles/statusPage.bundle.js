@@ -11,9 +11,7 @@ webpackJsonp([1],{
 	 *
 	 * context: {"env":"production","urlBasePath":"","sourceMaps":false,"kbnVersion":"4.4.0","buildNum":9689}
 	 * includes code from:
-	 *  - elasticsearch@1.0.0
 	 *  - kbn_vislib_vis_types@1.0.0
-	 *  - kibana@1.0.0
 	 *  - markdown_vis@1.0.0
 	 *  - metric_vis@1.0.0
 	 *  - sense@2.0.0-beta2
@@ -25,30 +23,30 @@ webpackJsonp([1],{
 
 	'use strict';
 
-	__webpack_require__(1069);
-	__webpack_require__(1810);
-	__webpack_require__(1595);
-	__webpack_require__(1596);
-	__webpack_require__(1597);
-	__webpack_require__(1598);
-	__webpack_require__(1599);
-	__webpack_require__(1600);
-	__webpack_require__(1601);
-	__webpack_require__(1602);
-	__webpack_require__(1603);
-	__webpack_require__(1604);
-	__webpack_require__(1605);
-	__webpack_require__(1606);
-	__webpack_require__(1607);
-	__webpack_require__(1608);
-	__webpack_require__(1609);
-	__webpack_require__(1610);
-	__webpack_require__(1595);
-	__webpack_require__(1611);
-	__webpack_require__(1612);
-	__webpack_require__(1069);
+	__webpack_require__(1818);
+	__webpack_require__(1950);
+	__webpack_require__(1932);
+	__webpack_require__(1933);
+	__webpack_require__(1934);
+	__webpack_require__(1935);
+	__webpack_require__(1936);
+	__webpack_require__(1937);
+	__webpack_require__(1938);
+	__webpack_require__(1939);
+	__webpack_require__(1940);
+	__webpack_require__(1941);
+	__webpack_require__(1942);
+	__webpack_require__(1943);
+	__webpack_require__(1944);
+	__webpack_require__(1945);
+	__webpack_require__(1946);
+	__webpack_require__(1947);
+	__webpack_require__(1932);
+	__webpack_require__(1948);
+	__webpack_require__(1949);
+	__webpack_require__(1818);
 	__webpack_require__(212);
-	__webpack_require__(1069).bootstrap();
+	__webpack_require__(1818).bootstrap();
 	/* xoxo */
 
 /***/ },
@@ -750,23 +748,23 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 1810:
+/***/ 1950:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var $ = __webpack_require__(208);
 	var _ = __webpack_require__(194);
-	var notify = __webpack_require__(1121);
+	var notify = __webpack_require__(1870);
 
-	__webpack_require__(1811);
-	__webpack_require__(1816);
+	__webpack_require__(1951);
+	__webpack_require__(1956);
 
-	var chrome = __webpack_require__(1069).setTabs([{
+	var chrome = __webpack_require__(1818).setTabs([{
 	  id: '',
 	  title: 'Server Status',
 	  activeIndicatorColor: '#EFF0F2'
-	}]).setRootTemplate(__webpack_require__(1817)).setRootController('ui', function ($http, $scope) {
+	}]).setRootTemplate(__webpack_require__(1957)).setRootController('ui', function ($http, $scope) {
 	  var ui = this;
 	  ui.loading = false;
 
@@ -804,7 +802,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 1811:
+/***/ 1951:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -813,9 +811,9 @@ webpackJsonp([1],{
 	var moment = __webpack_require__(243);
 	var numeral = __webpack_require__(946);
 
-	var toTitleCase = __webpack_require__(1812);
-	var formatNumber = __webpack_require__(1813);
-	var readStatData = __webpack_require__(1814);
+	var toTitleCase = __webpack_require__(1952);
+	var formatNumber = __webpack_require__(1953);
+	var readStatData = __webpack_require__(1954);
 
 	function calcAvg(metricList, metricNumberType) {
 	  return metricList.map(function (data) {
@@ -826,10 +824,10 @@ webpackJsonp([1],{
 	  });
 	}
 
-	__webpack_require__(1077).get('kibana', []).directive('statusPageMetric', function () {
+	__webpack_require__(1826).get('kibana', []).directive('statusPageMetric', function () {
 	  return {
 	    restrict: 'E',
-	    template: __webpack_require__(1815),
+	    template: __webpack_require__(1955),
 	    scope: {
 	      name: '@',
 	      data: '='
@@ -883,7 +881,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 1812:
+/***/ 1952:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -900,7 +898,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 1813:
+/***/ 1953:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -926,7 +924,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 1814:
+/***/ 1954:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -973,21 +971,21 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 1815:
+/***/ 1955:
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"status_metric_wrapper col-md-4\">\n  <div class=\"content\">\n    <h3 class=\"title\">{{metric.extendedTitle}}</h3>\n    <h4 class=\"average\">{{ metric.averages.join(', ') }}</h4>\n  </div>\n</div>\n"
 
 /***/ },
 
-/***/ 1816:
+/***/ 1956:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 1817:
+/***/ 1957:
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"container state_default state_{{ui.serverState}}\">\n  <header>\n    <h1>\n      Status: <span class=\"state_color\">{{ ui.serverStateMessage }}</span>\n      <i class=\"fa state_color state_icon\" />\n    </h1>\n  </header>\n\n  <div class=\"row metrics_wrapper\">\n    <div ng-repeat=\"(name, data) in ui.metrics\">\n      <status-page-metric name=\"{{name}}\" data=\"data\"></status-page-metric>\n    </div>\n  </div>\n\n  <div class=\"row plugin_status_wrapper\">\n    <h3>Installed Plugins</h3>\n    <div ng-if=\"!ui.statuses && ui.loading\" class=\"loading_statuses\">\n      <span class=\"spinner\"></span>\n    </div>\n\n    <h4 ng-if=\"!ui.statuses && !ui.loading\" class=\"missing_statuses\">\n      No plugin status information available\n    </h4>\n\n    <table class=\"plugin_status_breakdown row\" ng-if=\"ui.statuses\">\n      <tr>\n        <th class=\"col-xs-1\">Name</th>\n        <th class=\"col-xs-11\">Status</th>\n      </tr>\n      <tr ng-repeat=\"status in ui.statuses\" class=\"status_row plugin_state_default plugin_state_{{status.state}}\">\n        <td class=\"col-xs-1 status_name\">{{status.name}}</td>\n        <td class=\"col-xs-11 status_message\">\n          <i class=\"fa plugin_state_color plugin_state_icon\" />\n          {{status.message}}\n        </td>\n      </tr>\n    </table>\n  </div>\n</div>\n"

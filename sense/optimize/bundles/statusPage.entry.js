@@ -6,9 +6,7 @@
  *
  * context: {"env":"production","urlBasePath":"","sourceMaps":false,"kbnVersion":"4.4.0","buildNum":9689}
  * includes code from:
- *  - elasticsearch@1.0.0
  *  - kbn_vislib_vis_types@1.0.0
- *  - kibana@1.0.0
  *  - markdown_vis@1.0.0
  *  - metric_vis@1.0.0
  *  - sense@2.0.0-beta2
