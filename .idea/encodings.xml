@@ -1,34 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/sense/LICENSE.md" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/README.md" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/api_server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/favicon.ico" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/favicon.ico" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/icons" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/icons" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/index.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/index.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/index.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo128.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo16.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo19.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo38.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo48.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/kb" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/kb" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/lib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/lib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/manifest.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/manifest.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sense/package.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/public" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/sense.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/sense.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sense/src" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/src" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/welcome.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sense/welcome.html" charset="UTF-8" />
   </component>
 </project>
