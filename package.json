@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gillyb"
+    "url": "git+https://github.com/gillyb/sensitive"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "kibana",
+    "elasticsearch",
+    "sense",
+    "Electron"
   ],
-  "author": "GitHub",
+  "author": "Gilly Barr",
   "license": "Apache 2.0",
-  "homepage": "https://github.com/gillyb",
+  "homepage": "https://github.com/gillyb/sensitive",
   "devDependencies": {
     "electron-prebuilt": "^0.36.0"
   }
