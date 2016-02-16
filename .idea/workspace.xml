@@ -2,208 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8477b383-1c4d-4546-a29c-d058b2bdb495" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/call_with_request.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/check_es_version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/create_agent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/create_kibana_index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/create_proxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/es_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/expose_client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/get_basic_auth_realm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/health_check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/is_upgradeable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/map_uri.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/migrate_config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/setup_error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/upgrade_config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/lib/version_satisfies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/elasticsearch/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/area.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/line_interpolation_option.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/line_interpolation_option.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/point_series_options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/point_series_options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/radius_ratio_option.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/rows_or_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/vislib_basic_options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/controls/vislib_basic_options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/editors/area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/editors/histogram.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/editors/line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/editors/pie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/editors/tile_map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/histogram.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/kbn_vislib_vis_types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kbn_vislib_vis_types/public/tileMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/components/panel/lib/load_panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/components/panel/lib/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/components/panel/lib/visualization.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/components/panel/panel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/components/panel/panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/directives/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/partials/load_dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/partials/options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/partials/pick_visualization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/partials/save_dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/partials/share.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/services/_saved_dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/services/saved_dashboard_register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/services/saved_dashboards.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/dashboard/styles/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/_hit_sort_fn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/components/field_chooser/discover_field.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/components/field_chooser/discover_field.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/components/field_chooser/field_chooser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/components/field_chooser/field_chooser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/components/field_chooser/lib/detail_views/string.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/components/field_chooser/lib/field_calculator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/controllers/discover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/directives/timechart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/partials/load_search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/partials/save_search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/partials/share_search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/saved_searches/_saved_search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/saved_searches/saved_search_register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/saved_searches/saved_searches.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/discover/styles/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/doc/controllers/doc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/doc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/doc/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/kibana.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/app.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/saved_object_registry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/about/barcode.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/about/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/about/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/advanced/advanced_row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/advanced/advanced_row.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/advanced/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/advanced/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/advanced/lib/get_editor_type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/advanced/lib/get_val_type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/advanced/lib/to_editable_config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_create.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_date_scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_edit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_field_controls.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_field_editor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_field_editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_field_name.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_field_popularity.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_field_type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_field_types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_index_header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_index_header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_indexed_fields.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_indexed_fields.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_refresh_kibana_index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_scripted_fields.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/_scripted_fields.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/indices/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/objects/_objects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/objects/_objects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/objects/_view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/objects/_view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/objects/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/sections/status/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/settings/styles/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/add_bucket_agg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/advanced_toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_add.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_param.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_params.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_params.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/agg_select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/editor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/nesting_indicator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/panels/load.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/panels/save.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/panels/share.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/styles/_editor.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/vis_options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/editor/vis_options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/saved_visualizations/_saved_vis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/saved_visualizations/saved_visualization_register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/saved_visualizations/saved_visualizations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/styles/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/wizard/step_1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/wizard/step_2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/kibana/public/visualize/wizard/wizard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/markdown_vis/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/markdown_vis/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/markdown_vis/public/markdown_vis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/markdown_vis/public/markdown_vis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/markdown_vis/public/markdown_vis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/markdown_vis/public/markdown_vis_controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/markdown_vis/public/markdown_vis_params.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/metric_vis/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/metric_vis/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/metric_vis/public/metric_vis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/metric_vis/public/metric_vis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/metric_vis/public/metric_vis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/metric_vis/public/metric_vis_controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/metric_vis/public/metric_vis_params.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/spyModes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/spyModes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/spyModes/public/reqRespStatsSpyMode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/spyModes/public/reqRespStatsSpyMode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/spyModes/public/tableSpyMode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/spyModes/public/tableSpyMode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/lib/formatNumber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/lib/makeChartOptions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/lib/readStatData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/lib/toTitleCase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/statusPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/statusPage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/statusPage.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/statusPageMetric.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/statusPage/public/statusPageMetric.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/public/table_vis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/public/table_vis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/public/table_vis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/public/table_vis_controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/public/table_vis_params.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sense/src/plugins/table_vis/public/table_vis_params.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/src/cli/cli.js" afterPath="$PROJECT_DIR$/sense/src/cli/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/commons.bundle.js" afterPath="$PROJECT_DIR$/sense/optimize/bundles/commons.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sense/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/.babelcache.json" afterPath="$PROJECT_DIR$/sense/optimize/.babelcache.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/commons.style.css" afterPath="$PROJECT_DIR$/sense/optimize/bundles/commons.style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/installedPlugins/sense/public/src/es.js" afterPath="$PROJECT_DIR$/sense/installedPlugins/sense/public/src/es.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/sense.bundle.js" afterPath="$PROJECT_DIR$/sense/optimize/bundles/sense.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/sense.entry.js" afterPath="$PROJECT_DIR$/sense/optimize/bundles/sense.entry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/installedPlugins/sense/public/sense.js" afterPath="$PROJECT_DIR$/sense/installedPlugins/sense/public/sense.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/sense.style.css" afterPath="$PROJECT_DIR$/sense/optimize/bundles/sense.style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/statusPage.bundle.js" afterPath="$PROJECT_DIR$/sense/optimize/bundles/statusPage.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/statusPage.entry.js" afterPath="$PROJECT_DIR$/sense/optimize/bundles/statusPage.entry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sense/optimize/bundles/webpack.records" afterPath="$PROJECT_DIR$/sense/optimize/bundles/webpack.records" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="electron-quick-start.iws" />
@@ -229,101 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KbnServer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/server/KbnServer.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="4573">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chrome.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/ui/views/chrome.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rootRedirect.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/ui/views/rootRedirect.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui_app.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sense/src/ui/views/ui_app.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8571428" vertical-offset="884" max-vertical-offset="1360">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plugin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/server/plugins/Plugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="3502">
-              <caret line="142" column="62" selection-start-line="142" selection-start-column="62" selection-end-line="142" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UiExports.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/ui/UiExports.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UiBundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/ui/UiBundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/ui/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerStatus.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/server/status/ServerStatus.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sense/src/server/views/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6736597" vertical-offset="0" max-vertical-offset="1173">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -349,9 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/Electron.app/Contents/Resources/default_app/package.json" />
-        <option value="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/Electron.app/Contents/Info.plist" />
         <option value="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/Electron.app/Contents/Resources/default_app/main.js" />
         <option value="$PROJECT_DIR$/sense/public/css/sense.less" />
         <option value="$PROJECT_DIR$/sense/public/webpackShims/ace.js" />
@@ -388,14 +102,21 @@
         <option value="$PROJECT_DIR$/sense/public/src/mappings.js" />
         <option value="$PROJECT_DIR$/sense/public/src/settings.js" />
         <option value="$PROJECT_DIR$/sense/src/utils.js" />
-        <option value="$PROJECT_DIR$/sense/index.html" />
         <option value="$PROJECT_DIR$/sense/config/kibana.yml" />
         <option value="$PROJECT_DIR$/sense/src/server/config/schema.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/sense/src/cli/cli.js" />
         <option value="$PROJECT_DIR$/sense/src/server/plugins/Plugin.js" />
         <option value="$PROJECT_DIR$/sense/src/server/KbnServer.js" />
+        <option value="$PROJECT_DIR$/sense/src/cli/cli.js" />
+        <option value="$PROJECT_DIR$/builder.json" />
+        <option value="$PROJECT_DIR$/sense/index.html" />
+        <option value="$PROJECT_DIR$/sense/installedPlugins/sense/public/src/es.js" />
+        <option value="$PROJECT_DIR$/sense/node_modules/font-awesome/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/sense/optimize/bundles/commons.style.css" />
+        <option value="$PROJECT_DIR$/sense/optimize/bundles/sense.style.css" />
+        <option value="$PROJECT_DIR$/sense/installedPlugins/sense/public/sense.js" />
+        <option value="$PROJECT_DIR$/sense/optimize/bundles/sense.bundle.js" />
+        <option value="$PROJECT_DIR$/main.js" />
       </list>
     </option>
   </component>
@@ -432,8 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -484,56 +203,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="electron-quick-start" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensitive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sense" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="electron-quick-start" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensitive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sense" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,6 +226,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -821,6 +496,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -841,22 +532,6 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -873,23 +548,26 @@
       <workItem from="1455025949319" duration="15733000" />
       <workItem from="1455185657300" duration="1165000" />
       <workItem from="1455219276556" duration="1029000" />
+      <workItem from="1455222686644" duration="2303000" />
+      <workItem from="1455458460940" duration="4669000" />
+      <workItem from="1455529426960" duration="16610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22982000" />
+    <option name="totallyTimeSpent" value="46564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35632184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41485274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39130434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -902,7 +580,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20529328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27539343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -932,35 +610,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sense/src/server/config/Config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3502">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/http/getDefaultRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/config/complete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="799">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sense/src/server/config/override.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,91 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1853">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1156">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="527">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/cli/Log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/cli/Command.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1683">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/config/Config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="3502">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/http/getDefaultRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/config/complete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="799">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/config/override.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/config/schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1853">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1055">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,18 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/cli/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sense/src/server/http/getDefaultRoute.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,16 +684,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1853">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/bonsai.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1177,23 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3502">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1156">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/cli/cli.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1557" max-vertical-offset="2312">
           <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,63 +743,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/status/ServerStatus.js">
+    <entry file="file://$PROJECT_DIR$/sense/src/ui/views/ui_app.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/plugins/Plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="3502">
-          <caret line="142" column="62" selection-start-line="142" selection-start-column="62" selection-end-line="142" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/ui/UiExports.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/ui/UiBundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/ui/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/server/KbnServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="4573">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/ui/views/chrome.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.8072289" vertical-offset="584" max-vertical-offset="1360">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1273,14 +757,226 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/ui/views/chrome.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/server/KbnServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="565" max-vertical-offset="4573">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/server/plugins/Plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5803213" vertical-offset="2125" max-vertical-offset="3502">
+          <caret line="142" column="62" selection-start-line="142" selection-start-column="62" selection-end-line="142" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/ui/UiExports.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/ui/UiBundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/ui/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/server/status/ServerStatus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/server/logging/LogFormatJson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73333335" vertical-offset="0" max-vertical-offset="714">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/server/logging/LogFormat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13333334" vertical-offset="391" max-vertical-offset="2584">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/cli/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="510">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/cli/cli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46666667" vertical-offset="0" max-vertical-offset="765">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/cli/plugin/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2" vertical-offset="255" max-vertical-offset="765">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/src/optimize/babelOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sense/src/ui/views/ui_app.jade">
+    <entry file="file://$PROJECT_DIR$/builder.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8571428" vertical-offset="884" max-vertical-offset="1360">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/optimize/bundles/commons.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45945945" vertical-offset="0" max-vertical-offset="1683">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/optimize/bundles/fbe046f38bf68f1469110319dee9bbfd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30583">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/optimize/.babelcache.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14935988" vertical-offset="116" max-vertical-offset="32113">
+          <caret line="13" column="1780" selection-start-line="13" selection-start-column="1780" selection-end-line="13" selection-end-column="1780" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/optimize/bundles/sense.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43758574" vertical-offset="97397" max-vertical-offset="207298">
+          <caret line="5748" column="17" selection-start-line="5748" selection-start-column="17" selection-end-line="5748" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/optimize/bundles/commons.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7174211" vertical-offset="114856" max-vertical-offset="203048">
+          <caret line="6787" column="17" selection-start-line="6787" selection-start-column="17" selection-end-line="6787" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/src/es.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28120714" vertical-offset="424" max-vertical-offset="2074">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/installedPlugins/sense/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1563786" vertical-offset="702" max-vertical-offset="2176">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35704124" vertical-offset="429" max-vertical-offset="1156">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="e#1180#17121#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/node_modules/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09327846" vertical-offset="0" max-vertical-offset="729">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/optimize/bundles/statusPage.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20438957" vertical-offset="4" max-vertical-offset="37179">
+          <caret line="9" column="160" selection-start-line="9" selection-start-column="160" selection-end-line="9" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/optimize/bundles/sense.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4431818" vertical-offset="1599745" max-vertical-offset="1696685">
+          <caret line="94121" column="23" selection-start-line="94121" selection-start-column="23" selection-end-line="94121" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/sense.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37311384" vertical-offset="0" max-vertical-offset="729">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6736597" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

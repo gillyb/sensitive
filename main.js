@@ -13,10 +13,10 @@ let mainWindow;
 
 function createWindow () {
 
-  require('./sense/src/cli/index.js');
+  //require('./sense/src/cli/index.js');
   setTimeout(function() {
 
-    app.dock.setIcon(electron.nativeImage.createFromPath(path.resolve('sense/installedPlugins/sense/public/logo128.png')));
+    app.dock.setIcon(electron.nativeImage.createFromPath('./sense/installedPlugins/sense/public/logo128.png'));
 
     // Create the browser window.
     mainWindow = new BrowserWindow({
@@ -26,10 +26,11 @@ function createWindow () {
 
     // and load the index.html of the app.
     //mainWindow.loadURL('file://' + __dirname + '/sense/index.html');
-    mainWindow.loadURL('http://localhost:5611/app/sense');
+    mainWindow.loadURL('file://' + __dirname + '/sense/index.html');
+    //mainWindow.loadURL('file://' + __dirname + '/index.html');
 
     // Open the DevTools.
-    mainWindow.webContents.openDevTools();
+    //mainWindow.webContents.openDevTools();
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function() {
@@ -39,7 +40,7 @@ function createWindow () {
       mainWindow = null;
     });
 
-  }, 2500);
+  }, 2000);
 }
 
 // This method will be called when Electron has finished

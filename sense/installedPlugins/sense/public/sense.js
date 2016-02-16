@@ -14,7 +14,7 @@ require('./src/directives/senseNavbar');
 
 require('ui/chrome')
 .setBrand({
-  logo: 'url(/plugins/sense/icon.png) center no-repeat'
+  logo: 'url(./installedPlugins/sense/public/icon.png) center no-repeat'
 })
 .setRootTemplate(require('./index.html'))
 .setRootController('sense', 'SenseController');

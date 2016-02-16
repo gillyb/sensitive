@@ -94473,7 +94473,7 @@ webpackJsonp([3,2],[
 	__webpack_require__(1929);
 
 	__webpack_require__(1818).setBrand({
-	  logo: 'url(/plugins/sense/icon.png) center no-repeat'
+	  logo: 'url(./installedPlugins/sense/public/icon.png) center no-repeat'
 	}).setRootTemplate(__webpack_require__(1931)).setRootController('sense', 'SenseController');
 
 /***/ },
@@ -97057,7 +97057,7 @@ webpackJsonp([3,2],[
 	  var settings = __webpack_require__(1902);
 
 	  var options = {
-	    url: '../api/sense/proxy?uri=' + encodeURIComponent(path),
+	    url: /*'../api/sense/proxy?uri=' + encodeURIComponent(*/path/*)*/,
 	    data: method == "GET" ? null : data,
 	    cache: false,
 	    crossDomain: true,
@@ -99367,7 +99367,7 @@ webpackJsonp([3,2],[
 /* 1916 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "fbe046f38bf68f1469110319dee9bbfd.js"
+	module.exports = __dirname + '/optimize/' + __webpack_require__.p + "fbe046f38bf68f1469110319dee9bbfd.js"
 
 /***/ },
 /* 1917 */
