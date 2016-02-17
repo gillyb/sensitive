@@ -32,3 +32,8 @@ If you just want a running executable of this, then click on the appropriate lin
 ### Helping out  
 If you want to help out improving this, then feel free to open issues, send pull requests or email with me suggestions.  
 Thanks :)
+
+### More links  
+* [Sense history from the people at elastic.co](https://www.elastic.co/blog/sense-2-0-0-beta1)  
+* [ElasticSearch 101 using Sense](http://joelabrahamsson.com/elasticsearch-101/)  
+* [Installing Sense as a chrome extension](http://www.joshslauson.com/2014/06/14/how-to-install-sense-chrome-extension-from-source/)
