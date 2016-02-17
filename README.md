@@ -1,5 +1,5 @@
 # sensitive
-A native version of the kibana sense plugin
+A native version of the kibana sense plugin for elasticsearch
 
 
 
