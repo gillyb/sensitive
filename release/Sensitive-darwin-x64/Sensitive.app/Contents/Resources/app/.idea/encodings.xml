@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo128.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo16.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo19.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo38.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sense/installedPlugins/sense/public/logo48.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sense/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sense/src" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+{
+  "name": "Sensitive",
+  "version": "0.1.0",
+  "description": "A native version of the kibana sense plugin",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gillyb/sensitive"
+  },
+  "keywords": [
+    "kibana",
+    "elasticsearch",
+    "sense",
+    "Electron"
+  ],
+  "author": "Gilly Barr",
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/gillyb/sensitive",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
