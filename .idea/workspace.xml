@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8477b383-1c4d-4546-a29c-d058b2bdb495" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8477b383-1c4d-4546-a29c-d058b2bdb495" name="Default" comment="" />
     <ignored path="electron-quick-start.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -647,12 +644,12 @@
       <workItem from="1455222686644" duration="2303000" />
       <workItem from="1455458460940" duration="4669000" />
       <workItem from="1455529426960" duration="20167000" />
-      <workItem from="1455742028447" duration="913000" />
+      <workItem from="1455742028447" duration="2165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51034000" />
+    <option name="totallyTimeSpent" value="52286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
