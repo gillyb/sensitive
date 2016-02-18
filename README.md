@@ -17,6 +17,10 @@ Sensitive is the sense plugin wrapped as a native desktop application, using [el
 It basically has all the kibana code in it, which will be cleaned out hopefully, along with the sense plugin code, but it doesn't run as a server, and doesn't use any ports on your computer.  
 
 
+### Why is this better than the chrome extension ?  
+There are guides on the internet about how to install sense as a chrome extension, like it was released a long time ago.   There are a few small problems with this though - The biggest problem is that the auto-complete doesn't work with the newer elasticsearch query DSL features included in ES 2 and above. In addition, I prefer running it as a native app which isn't related to my chrome, and doesn't act as a tab.
+
+
 ### Running from the source code  
 * Install [nodejs](https://nodejs.org/en/)
 * Download the 'Sensitive' source code
@@ -31,7 +35,12 @@ If you just want a running executable of this, then click on the appropriate lin
 
 ### Helping out  
 If you want to help out improving this, then feel free to open issues, send pull requests or email with me suggestions.  
-Thanks :)
+Thanks :)  
+
+The most important issues that should be handled are :  
+* Clean the irrelevant kibana code from the source
+* Create release packages for other platforms (windows, linux)
+* Add dropdown so user can choose which version of elasticsearch query DSL to use for auto-complete
 
 ### More links  
 * [Sense history from the people at elastic.co](https://www.elastic.co/blog/sense-2-0-0-beta1)  
