@@ -31,7 +31,7 @@ There are guides on the internet about how to install sense as a chrome extensio
 ### Executable  
 If you just want a running executable of this, then click on the appropriate link :
 * [MacOS](https://github.com/gillyb/sensitive/releases/tag/Mac_0.1)  
-*I will create executables for other platforms soon*  
+*Please help me create executables for other platforms!*  
 
 ### Helping out  
 If you want to help out improving this, then feel free to open issues, send pull requests or email with me suggestions.  
