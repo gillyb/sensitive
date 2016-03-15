@@ -20,6 +20,6 @@
   "license": "Apache 2.0",
   "homepage": "https://github.com/gillyb/sensitive",
   "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+    "electron-prebuilt": "0.37.2"
   }
 }
