@@ -95240,43 +95240,50 @@ webpackJsonp([3,2],[
 	 * The original shortcut will now just open the menu and highlight the
 	 *
 	 */
+	 var clipboard = require('electron').clipboard;
 	var $copyAsCURL = $('#copy_as_curl');
-	var zc = (function setupZeroClipboard() {
-	  var zc = new ZeroClipboard($copyAsCURL); // the ZeroClipboard instance
+	$copyAsCURL.click(function() {
+		input.getRequestsAsCURL(function(curl) {
+			clipboard.writeText(curl, 'selection');
+		});
+	});
 
-	  zc.on('wrongflash noflash', function () {
-	    if (!storage.get('flash_warning_shown')) {
-	      alert('Sense needs flash version 10.0 or greater in order to provide "Copy as cURL" functionality');
-	      storage.set('flash_warning_shown', 'true');
-	    }
-	    $copyAsCURL.hide();
-	  });
+	//  var zc = (function setupZeroClipboard() {
+	//  var zc = new ZeroClipboard($copyAsCURL); // the ZeroClipboard instance
 
-	  zc.on('ready', function () {
-	    function setupCopyButton(cb) {
-	      cb = typeof cb === 'function' ? cb : $.noop;
-	      $copyAsCURL.css('visibility', 'hidden');
-	      input.getRequestsAsCURL(function (curl) {
-	        $copyAsCURL.attr('data-clipboard-text', curl);
-	        $copyAsCURL.css('visibility', 'visible');
-	        cb();
-	      });
-	    }
-
-	    input.$actions.on('mouseenter', function () {
-	      if (!$(this).hasClass('open')) {
-	        setupCopyButton();
-	      }
-	    });
-	  });
-
-	  zc.on('complete', function () {
-	    $copyAsCURL.click();
-	    input.focus();
-	  });
-
-	  return zc;
-	})();
+	//  zc.on('wrongflash noflash', function () {
+	//    if (!storage.get('flash_warning_shown')) {
+	//      alert('Sense needs flash version 10.0 or greater in order to provide "Copy as cURL" functionality');
+	//      storage.set('flash_warning_shown', 'true');
+	//    }
+	//    $copyAsCURL.hide();
+	//  });
+//
+	//  zc.on('ready', function () {
+	//    function setupCopyButton(cb) {
+	//      cb = typeof cb === 'function' ? cb : $.noop;
+	//      $copyAsCURL.css('visibility', 'hidden');
+	//      input.getRequestsAsCURL(function (curl) {
+	//        $copyAsCURL.attr('data-clipboard-text', curl);
+	//        $copyAsCURL.css('visibility', 'visible');
+	//        cb();
+	//      });
+	//    }
+//
+	//    input.$actions.on('mouseenter', function () {
+	//      if (!$(this).hasClass('open')) {
+	//        setupCopyButton();
+	//      }
+	//    });
+	//  });
+//
+	//  zc.on('complete', function () {
+	//    $copyAsCURL.click();
+	//    input.focus();
+	//  });
+//
+	//  return zc;
+	//})();
 
 	/**
 	 * Setup the "send" shortcut
