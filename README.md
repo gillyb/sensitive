@@ -1,7 +1,7 @@
 # sensitive
 A native version of the kibana sense plugin for elasticsearch
 
-
+![Sensitive native](https://raw.githubusercontent.com/gillyb/sensitive/master/screenshots/sense.png)
 
 ### A little bit of history  
 A long time ago, [elastic.co](http://elastic.co) released a chrome extension called Sense that made it really easy to communicate with your elasticsearch server. It had a simple and comfortable UI, but more importantly it offered auto-complete (a.k.a. intellisense) when building elasticsearch queries.  
@@ -31,7 +31,7 @@ There are guides on the internet about how to install sense as a chrome extensio
 ### Executable  
 If you just want a running executable of this, then click on the appropriate link :
 * [MacOS](https://github.com/gillyb/sensitive/releases/tag/Mac_0.1)  
-*I will create executables for other platforms soon*  
+*Please help me create executables for other platforms!*  
 
 ### Helping out  
 If you want to help out improving this, then feel free to open issues, send pull requests or email with me suggestions.  
