@@ -31,6 +31,7 @@ There are guides on the internet about how to install sense as a chrome extensio
 ### Executable  
 If you just want a running executable of this, then click on the appropriate link :
 * [MacOS](https://github.com/gillyb/sensitive/releases/tag/Mac_0.1)  
+_This was built running this: electron-packager ./ Sensitive --platform=darwin --arch=x64 --out=release --icon=./sense/installedPlugins/sense/public/logo128.png_  
 *Please help me create executables for other platforms!*  
 
 ### Helping out  
